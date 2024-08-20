@@ -100,6 +100,34 @@
         },
         {
             "id": 2,
+            "first_name": "Benoît",
+            "last_name": "Marti",
+            "birth_date": "1913-11-22",
+            "birth_place": "Sète, France",
+            "death_date": "2005-07-10",
+            "death_place": "Jura, France",
+            "profession": "Tailleur",
+            "parents": ["Benito Marti Cassan", "Margarita Cerda Salvador"],
+            "siblings": ["-"],
+            "spouse": "Marie Duclaux",
+            "children": ["Jean-Claude Marti", "Alain Marti"]
+        },
+        {
+            "id": 3,
+            "first_name": "Marie",
+            "last_name": "Duclaux",
+            "birth_date": "28/02/1928",
+            "birth_place": "Gard, France",
+            "death_date": "-",
+            "death_place": "-",
+            "profession": "Comptable",
+            "parents": ["Claude Duclaux", "Louise Duclaux"],
+            "siblings": ["Alfred Duclaux", "Jeannette Duclaux"],
+            "spouse": "Benoît Marti",
+            "children": ["Jean-Claude Marti", "Alain Marti"]
+        },
+        {
+            "id": 4,
             "first_name": "Albert",
             "last_name": "Lagache",
             "birth_date": "1938-11-22",
@@ -113,7 +141,7 @@
             "children": ["Jean-Jacques Lagache", "Martine Lagache"]
         },
         {
-            "id": 3,
+            "id": 5,
             "first_name": "Marie",
             "last_name": "Caby",
             "birth_date": "28/02/1928",
@@ -125,34 +153,6 @@
             "siblings": ["Jean Caby", "Jeanne Caby"],
             "spouse": "Albert Lagache",
             "children": ["Jean-Jacques Lagache", "Martine Lagache"]
-        },
-        {
-            "id": 4,
-            "first_name": "Robert",
-            "last_name": "Moreau",
-            "birth_date": "1910-05-15",
-            "birth_place": "Bordeaux, France",
-            "death_date": "1985-08-23",
-            "death_place": "Lyon, France",
-            "profession": "Agriculteur",
-            "parents": ["Lukas Moreau", "Marguerite Giraud"],
-            "siblings": ["-"],
-            "spouse": "Isabella Rossi",
-            "children": ["Marie Moreau"]
-        },
-        {
-            "id": 5,
-            "first_name": "Isabella",
-            "last_name": "Rossi",
-            "birth_date": "1970-02-21",
-            "birth_place": "Rome, Italie",
-            "death_date": "-",
-            "death_place": "-",
-            "profession": "Avocate",
-            "parents": ["Giovanni Rossi", "Sofia Martinez"],
-            "siblings": ["-"],
-            "spouse": "Robert Moreau",
-            "children": ["Marie Moreau"]
         },
         {
             "id": 6,
