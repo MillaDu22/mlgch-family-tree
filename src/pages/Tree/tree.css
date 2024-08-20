@@ -1,0 +1,224 @@
+.page-tree {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100%;
+    overflow-x: auto;
+    background-image: url("../../assets//icons/tree.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#familyTree {
+    padding:0 300px 0 900px;
+    display: flex;
+    margin:40px 0 40px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width:100%;
+    min-width: 1400px;
+    height: 100%;
+    overflow-x: auto;
+    overflow-y: auto; 
+}
+
+.generation {
+    margin: 0;
+    padding: 0;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.generation1 {
+    width:500px;
+}
+
+.generation2 {
+    width:900px;
+}
+
+.generation3 {
+    width:400px;
+}
+
+.generation4 {
+    width:500px;
+}
+
+.generation5 {
+    width:600px;
+}
+
+.long-horizontal1{
+    margin-right:54.5%;
+    width:195px;
+    height:2px;
+    background:black;
+    position:relative;
+}
+
+.long-horizontal2{
+    margin-left:56%;
+    width:195px;
+    height:2px;
+    background:black;
+    position:relative;
+}
+
+.container-pair  {
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left:5%;
+    padding-right:5%;
+}
+.container-pair1 {
+    width:100%;
+}
+
+.container-pair2 {
+    width:100%;
+}
+
+.container-pair3 {
+    width:100%;
+}
+
+.container-pair4 {
+    width:100%;
+}
+
+.container-pair5 {
+    width:100%;
+}
+
+.pair {
+    margin:0;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+.pair1 {
+    width:100%;
+    justify-content: space-between;
+}
+
+.pair2, .pair3 {
+    width:50%;
+    justify-content: center;
+}
+.pair4, .pair5, .pair6, .pair7  {
+    width:25%;
+    justify-content: center;
+}
+
+.pair8, .pair9, .pair10, .pair11, .pair12, .pair13, .pair14, .pair15 {
+    width:12.5%;
+}
+
+.pair16, .pair17, .pair18, .pair19, .pair20, .pair21, .pair22, .pair23, .pair24, .pair25, .pair26, .pair27, .pair28, .pair29, .pair30, .pair31{
+    width:6.3%;
+}
+
+
+.alliance {
+    width:38px;
+    height:30px;
+    padding:10px;
+}
+
+.link {
+    text-decoration: none;
+    z-index:1;
+}
+
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 140px; 
+    height: 115px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    font-family: 'Ysabeau SC', sans-serif;
+    color:black;
+    font-size: 10px;
+    position: relative; 
+    padding:5px;
+    background: white;
+    box-shadow: 0 3px 4px white, inset 0 -2px 5px rgb(223, 223, 223),
+    inset 0 4px 15px rgba(208, 208, 208, 0.245), 0 0 0 2px white, 0 0 0 5px white,
+    0 0 0 5.5px #e8e8e8;
+}
+
+@media screen and (max-width:1285px) {
+    #familyTree {
+        padding-left:1200px;
+        padding-right:300px;
+    }
+}
+
+
+@media screen and (max-width:1050px) {
+    #familyTree {
+        padding-left:1300px;
+        padding-right:300px;
+    }
+}
+
+
+@media screen and (max-width:850px) {
+    #familyTree {
+        padding-left:1400px;
+        padding-right:300px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    #familyTree {
+        padding-left:1500px;
+        padding-right:250px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    #familyTree {
+        padding-left:1600px;
+        padding-right:200px;
+    }
+}
+
+@media screen and (max-width:250px) {
+    #familyTree {
+        padding-left:1700px;
+        padding-right:200px;
+    }
+}
+
+.border-male {
+    border: 1px solid rgba(0, 0, 255, 0.381);
+    background-image: url('../../assets/icons/lavande4.webp');
+    background-size: contain;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+.border-female {
+    border: 1px solid pink;
+    background-image: url('../../assets/icons/orchidée.webp');
+    background-size: contain;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
